@@ -1,0 +1,15 @@
+@import './colors.scss';
+$primary: $app-green;
+$link: $app-black;
+
+@import 'bulma/bulma';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.page {
+  margin: 20px 15px 20px 15px;
+}
